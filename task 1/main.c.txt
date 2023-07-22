@@ -1,1 +1,4 @@
-dglj
+SET_BIT  X=X|(1<<BIT)
+CLR_BIT  X=X~(1<<BIT)
+READ_BIT   ((X>>BIT)&1)
+TOGGLE X=X^(1<<BIT)
